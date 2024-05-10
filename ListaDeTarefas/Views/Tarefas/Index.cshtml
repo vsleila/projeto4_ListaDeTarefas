@@ -1,0 +1,49 @@
+﻿@{
+    var tarefas = ViewBag.Tarefas;
+}
+
+<br />
+<br />
+<h2>Lista de Tarefas 📌</h2>
+<br />
+
+<p>
+    <a type="button" class="btn btn-primary" asp-action="Create">Adicionar Tarefa</a>
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome da Tarefa</th>
+            <th>Data de Início</th>
+            <th>Data de Conclusão</th>
+            <th>Status</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarefa in tarefas)
+        {
+            <tr>
+                <td>@tarefa.Id</td>
+                <td>@tarefa.NomeDaTarefa</td>
+                <td>@tarefa.DtaInicio</td>
+                <td>@tarefa.DtaFim</td>
+                <td>@tarefa.Status</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@tarefa.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@tarefa.Id">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <a class="btn btn-primary me-md-2" asp-action="TarefasAndamento" role="button">Tarefas em Andamento</a>
+    <a class="btn btn-primary" asp-action="TarefasFinalizadas" role="button">Tarefas Concluídas</a>
+</div>

@@ -1,0 +1,24 @@
+﻿@model Tarefas
+
+<h2>Adicionar Tarefa</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="NomeDaTarefa" class="control-label"></label>
+        <input asp-for="NomeDaTarefa" class="form-control" />
+        <span asp-validation-for="NomeDaTarefa" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DtaInicio" class="control-label"></label>
+        <input asp-for="DtaInicio" class="form-control" />
+        <span asp-validation-for="DtaInicio" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DtaFim" class="control-label"></label>
+        <input asp-for="DtaFim" class="form-control" />
+        <span asp-validation-for="DtaFim" class="text-danger"></span>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+</form>
