@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\tarefas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\tarefas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\tarefas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\tarefas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\models\\terefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:models\\terefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\tarefas\\tarefasfinalizadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\tarefas\\tarefasfinalizadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\tarefas\\tarefasandamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\tarefas\\tarefasandamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\tarefas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\tarefas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|c:\\users\\l.silva.vasconcelos\\onedrive - avanade\\avanade\\curso - impacta\\projeto4_listadetarefas_avanade\\listadetarefas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDBE5291-9A80-42B6-996A-58EB5ACFF93A}|ListaDeTarefas.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,105 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Details.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAGAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T22:51:52.289Z",
+              "WhenOpened": "2024-05-11T23:19:27.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Create.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCEAAAAKAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T22:47:10.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAC0AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T22:49:41.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Terefas.cs",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Models\\Terefas.cs",
-              "RelativeDocumentMoniker": "Models\\Terefas.cs",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Models\\Terefas.cs",
-              "RelativeToolTip": "Models\\Terefas.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T23:00:18.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TarefasFinalizadas.cshtml",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\TarefasFinalizadas.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\TarefasFinalizadas.cshtml",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\TarefasFinalizadas.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\TarefasFinalizadas.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T22:46:14.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TarefasAndamento.cshtml",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\TarefasAndamento.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\TarefasAndamento.cshtml",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\TarefasAndamento.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\TarefasAndamento.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T22:25:37.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TarefasController.cs",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Controllers\\TarefasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TarefasController.cs",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Controllers\\TarefasController.cs",
-              "RelativeToolTip": "Controllers\\TarefasController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:25:10.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\l.silva.vasconcelos\\OneDrive - Avanade\\Avanade\\Curso - Impacta\\projeto4_ListaDeTarefas_avanade\\ListaDeTarefas\\Views\\Tarefas\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Edit.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T22:47:53.045Z",
+              "WhenOpened": "2024-05-11T23:19:12.212Z",
               "EditorCaption": ""
             }
           ]
