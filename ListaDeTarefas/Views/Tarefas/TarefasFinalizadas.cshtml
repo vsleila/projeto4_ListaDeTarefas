@@ -1,14 +1,26 @@
 ﻿@model List<ListaDeTarefas.Models.Tarefas>
+@{
+    ViewData["Title"] = "Tarefas Concluídas";
+}
 
 <h1>Tarefas Concluídas</h1>
 
-@foreach (var tarefa in ViewBag.TarefasConcluidas)
-{
-    <div>
-        Id: @tarefa.Id
-        <br />
-        Nome da Tarefa: @tarefa.NomeDaTarefa
-        <br />
-        Status da Tarefa: @tarefa.Status
-    </div>
-}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome da Tarefa</th>
+            <th>Status da Tarefa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarefa in Model)
+        {
+            <tr>
+                <td>@tarefa.Id</td>
+                <td>@tarefa.NomeDaTarefa</td>
+                <td>@tarefa.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>

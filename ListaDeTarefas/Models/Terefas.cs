@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+
 namespace ListaDeTarefas.Models
 {
 
@@ -14,6 +15,8 @@ namespace ListaDeTarefas.Models
 
     public class Tarefas
     {
+
+        [Key]
         public int Id { get; set; }
 
         [Required]

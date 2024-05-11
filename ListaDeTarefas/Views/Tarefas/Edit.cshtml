@@ -1,4 +1,8 @@
-﻿@model ListaDeTarefas.Models.Tarefas
+﻿@model ListaDeTarefas.Models.Tarefas;
+
+@{
+    ViewData["Title"] = "Edit";
+}
 
 <h2>Editar Tarefa</h2>
 
@@ -25,4 +29,8 @@
     <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
 </form>
 
+<br />
+<div>
+    <a asp-action="Index" class="btn btn-outline-primary mt-2">Voltar para Lista</a>
+</div>
 

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using ListaDeTarefas.Models;
+﻿using ListaDeTarefas.Models;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace ListaDeTarefas.Controllers
 {
     public class TarefasController : Controller
     {
-        private List<Tarefas> _tarefas = new List<Tarefas> {
+        private static List<Tarefas> _tarefas = new List<Tarefas>() {
             new Tarefas { Id = 1, NomeDaTarefa = "Relatório", DtaInicio = new DateTime(2024, 5, 15), DtaFim = new DateTime(2024, 5, 20) },
             new Tarefas { Id = 2, NomeDaTarefa = "Exercício II", DtaInicio = new DateTime(2024, 5, 10), DtaFim = new DateTime(2024, 5, 15) },
             new Tarefas { Id = 3, NomeDaTarefa = "Reunião Semanal", DtaInicio = new DateTime(2024, 5, 6), DtaFim = new DateTime(2024, 5, 8) }
@@ -16,14 +14,12 @@ namespace ListaDeTarefas.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Tarefas = _tarefas;
+            return View(_tarefas);
+        }
 
-            var tarefasConcluidas = _tarefas.Where(t => t.Status == StatusTarefa.Concluida).ToList();
-            ViewBag.TarefasConcluidas = tarefasConcluidas;
-
-            var tarefasEmAndamento = _tarefas.Where(t => t.Status == StatusTarefa.EmAndamento).ToList();
-            ViewBag.TarefasEmAndamento = tarefasEmAndamento;
-
+        [HttpGet]
+        public IActionResult Create()
+        {
             return View();
         }
 
@@ -32,12 +28,9 @@ namespace ListaDeTarefas.Controllers
         {
             if (ModelState.IsValid)
             {
-                int proximoId = _tarefas.Count > 0 ? _tarefas.Max(t => t.Id) + 1 : 1;
-                tarefa.Id = proximoId;
-
+                tarefa.Id = _tarefas.Count > 0 ? _tarefas.Max(t => t.Id) + 1 : 1;
                 _tarefas.Add(tarefa);
             }
-
             return RedirectToAction("Index");
         }
 
@@ -52,6 +45,7 @@ namespace ListaDeTarefas.Controllers
             _tarefas.Remove(tarefa);
             return RedirectToAction("Index");
         }
+
 
         [HttpGet]
         public IActionResult Edit(int id)
@@ -82,14 +76,26 @@ namespace ListaDeTarefas.Controllers
             return View(tarefa);
         }
 
+        public IActionResult Details(int id)
+        {
+            var task = _tarefas.FirstOrDefault(t => t.Id == id);
+            if (task == null)
+            {
+                return NotFound();
+            }
+            return View(task);
+        }
+
         public IActionResult TarefasAndamento()
         {
-            return View("TarefasAndamento");
+            var tarefasEmAndamento = _tarefas.Where(t => t.Status == StatusTarefa.EmAndamento).ToList();
+            return View(tarefasEmAndamento);
         }
 
         public IActionResult TarefasFinalizadas()
         {
-            return View("TarefasFinalizadas");
+            var tarefasFinalizadas = _tarefas.Where(t => t.Status == StatusTarefa.Concluida).ToList();
+            return View(tarefasFinalizadas);
         }
     }
 }

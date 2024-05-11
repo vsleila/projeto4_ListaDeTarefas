@@ -28,3 +28,4 @@ C:\Users\l.silva.vasconcelos\OneDrive - Avanade\Avanade\Curso - Impacta\projeto4
 C:\Users\l.silva.vasconcelos\OneDrive - Avanade\Avanade\Curso - Impacta\projeto4_ListaDeTarefas_avanade\ListaDeTarefas\obj\Debug\net8.0\ListaDeTarefas.pdb
 C:\Users\l.silva.vasconcelos\OneDrive - Avanade\Avanade\Curso - Impacta\projeto4_ListaDeTarefas_avanade\ListaDeTarefas\obj\Debug\net8.0\ListaDeTarefas.genruntimeconfig.cache
 C:\Users\l.silva.vasconcelos\OneDrive - Avanade\Avanade\Curso - Impacta\projeto4_ListaDeTarefas_avanade\ListaDeTarefas\obj\Debug\net8.0\ref\ListaDeTarefas.dll
+C:\Users\l.silva.vasconcelos\OneDrive - Avanade\Avanade\Curso - Impacta\projeto4_ListaDeTarefas_avanade\ListaDeTarefas\obj\Debug\net8.0\ListaDeTarefas.sourcelink.json

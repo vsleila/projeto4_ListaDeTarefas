@@ -1,8 +1,9 @@
-﻿@{
-    var tarefas = ViewBag.Tarefas;
+﻿@model List<ListaDeTarefas.Models.Tarefas>
+@{
+    ViewData["Title"] = "Index";
 }
 
-<br />
+
 <br />
 <h2>Lista de Tarefas 📌</h2>
 <br />
@@ -24,7 +25,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var tarefa in tarefas)
+        @foreach (var tarefa in Model)
         {
             <tr>
                 <td>@tarefa.Id</td>
@@ -34,6 +35,7 @@
                 <td>@tarefa.Status</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@tarefa.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@tarefa.Id">Detalhes</a> |
                     <a asp-action="Delete" asp-route-id="@tarefa.Id">Deletar</a>
                 </td>
             </tr>
@@ -47,3 +49,5 @@
     <a class="btn btn-primary me-md-2" asp-action="TarefasAndamento" role="button">Tarefas em Andamento</a>
     <a class="btn btn-primary" asp-action="TarefasFinalizadas" role="button">Tarefas Concluídas</a>
 </div>
+
+

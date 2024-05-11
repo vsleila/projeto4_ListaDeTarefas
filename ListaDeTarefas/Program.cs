@@ -31,6 +31,8 @@ namespace ListaDeTarefas
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+
+
         }
     }
 }

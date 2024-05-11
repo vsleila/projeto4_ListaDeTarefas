@@ -1,9 +1,42 @@
-﻿@model ListaDeTarefas.Models.Tarefas
+﻿@model ListaDeTarefas.Models.Tarefas;
+
+@{
+    ViewData["Title"] = "Details";
+}
 
 <h1>Detalhes da Tarefa</h1>
-
-Id: @Model.Id
 <br />
-Nome da Tarefa: @Model.NomeDaTarefa
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeDaTarefa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomeDaTarefa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DtaInicio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DtaInicio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DtaFim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DtaFim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+</div>
 <br />
-Status da Tarefa: @Model.Status
+<div>
+    <a asp-action="Index" class="btn btn-outline-primary">Voltar para Lista</a> |
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary">Editar</a>
+</div>
